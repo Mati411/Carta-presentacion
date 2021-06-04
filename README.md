@@ -1,2 +1,2 @@
 ## Carta presentacion / Presentation card
-Link: https://mati411.github.io/Carta-presentacion/
+https://mati411.github.io/Carta-presentacion/
