@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    height: 100vh;
+    background: url(bg.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cartaPerfil {
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.cartaHeader {
+    background: #2C3A47;
+    padding: 40px 40px;
+}
+.foto {
+    display: inline-block;
+    padding: 10px;
+    background: linear-gradient(130deg, #74B9FF, #E66767);
+    margin: auto;
+    border-radius: 50%;
+    background-size: 200% 200%;
+    animation: gradiente-animado 2s linear infinite;
+}
+@keyframes gradiente-animado {
+    25% {
+        background-position: left bottom;
+    }
+    50% {
+        background-position: right bottom;
+    }
+    75% {
+        background-position: right top;
+    }
+    100% {
+        background-position: left top;
+    }
+}
+.foto img {
+    display: block;
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+}
+.nombre {
+    color: #F2F2F2;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.desc {
+    font-size: 18px;
+    color: #E66767;
+}
+.iconos {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.iconos a {
+    color: #F2F2F2;
+    width: 56px;
+    font-size: 22px;
+    transition: 0.3s linear;
+    text-decoration: none;
+}
+.iconos a:hover {
+    color: #E66767;
+}
+.botonContacto {
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 50px;
+    color: #E66767;
+    border: 2px solid #E66767;
+    border-radius: 6px;
+    margin-top: 16px;
+    transition: 0.3s linear;
+}
+.botonContacto:hover {
+    background: #E66767;
+    color: #F2F2F2;
+}
+.cartaFooter {
+    background: #F4F4F4;
+    padding: 40px 10px;
+}
+.numeros {
+    display: flex;
+    align-items: center;
+}
+.item {
+    flex: 1;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #E66767;
+}
+.item span {
+    display: block;
+    color: #2C3A47;
+    font-size: 30px;
+}
+.borde {
+    width: 1px;
+    height: 40px;
+    background: #BBBBBB;
+}
